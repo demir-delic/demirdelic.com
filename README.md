@@ -70,6 +70,8 @@ Lumen is a minimal, lightweight and mobile-first starter for creating blogs that
 
 `gatsby build`
 
+`gatsby serve`
+
 ## Screenshot (base Lumen install)
 
 ![Lumen screenshot](http://i.imgur.com/422y5GV.png)
