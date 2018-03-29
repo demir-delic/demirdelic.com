@@ -1,10 +1,9 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
-    subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    url: 'https://ddelic.com',
+    title: 'Blog by Demir Delic',
+    subtitle: 'Front-end developer seeking work in Münich.',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
     menu: [
       {
         label: 'Articles',
@@ -20,13 +19,11 @@ module.exports = {
       }
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
+      name: 'Demir Delic',
+      email: 'demir.delic@gmail.com',
       telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#'
+      github: 'demir-delic',
+      rss: '#'
     }
   },
   plugins: [
@@ -116,11 +113,7 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' }
-    },
-    {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [`roboto\:400,400i,500,700`]
       }

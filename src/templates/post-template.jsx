@@ -32,9 +32,7 @@ export const pageQuery = graphql`
         copyright
         author {
           name
-          twitter
         }
-        disqusShortname
         url
       }
     }

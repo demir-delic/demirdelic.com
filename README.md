@@ -1,6 +1,6 @@
 # Lumen
 
-Lumen is a minimal, lightweight and mobile-first starter for creating blogs that uses [Gatsby](https://github.com/gatsbyjs/gatsby).
+Lumen is a minimal, lightweight and mobile-first starter for creating blogs that uses [Gatsby](https://github.com/gatsbyjs/gatsby). Lumen was created by [Alexander Shelepenok](https://github.com/alxshelepenok).
 
 ## Features
 
@@ -30,7 +30,6 @@ Lumen is a minimal, lightweight and mobile-first starter for creating blogs that
     │       └── pages
     ├── components
     │   ├── CategoryTemplateDetails
-    │   ├── Disqus
     │   ├── Links
     │   ├── Menu
     │   ├── PageTemplateDetails
