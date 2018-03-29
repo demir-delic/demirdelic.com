@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     url: 'https://ddelic.com',
     title: 'Blog by Demir Delic',
-    subtitle: 'Front-end developer seeking work in Münich.',
+    subtitle: 'Front-end developer seeking work in München.',
     copyright: '© All rights reserved.',
     menu: [
       {
@@ -96,9 +96,7 @@ module.exports = {
         plugins: [
           {
             resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 960
-            }
+            options: { maxWidth: 960 }
           },
           {
             resolve: 'gatsby-remark-responsive-iframe',
@@ -114,9 +112,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-fonts',
-      options: {
-        fonts: [`roboto\:400,400i,500,700`]
-      }
+      options: { fonts: [`roboto\:400,400i,500,700`] }
     },
     {
       resolve: 'gatsby-plugin-sitemap',
