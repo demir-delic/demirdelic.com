@@ -13,14 +13,12 @@ module.exports = {
       */
       {
         label: 'About',
-        path: '/'
-      }
-      /*
+        path: '/about'
+      },
       {
         label: 'Projects',
         path: '/'
       }
-      */
     ],
     author: {
       name: 'Demir Delic',
