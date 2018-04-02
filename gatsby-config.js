@@ -1,29 +1,33 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://ddelic.com',
+    url: 'https://demirdelic.com',
     title: 'Blog by Demir Delic',
     subtitle: 'Front-end developer seeking work in München.',
     copyright: '© All rights reserved.',
     menu: [
+      /*
       {
         label: 'Articles',
         path: '/'
       },
+      */
       {
-        label: 'About me',
-        path: '/about/'
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/'
+        label: 'About',
+        path: '/'
       }
+      /*
+      {
+        label: 'Projects',
+        path: '/'
+      }
+      */
     ],
     author: {
       name: 'Demir Delic',
       email: 'demir.delic@gmail.com',
-      telegram: '#',
+      telegram: 'demirdelic',
       github: 'demir-delic',
-      rss: '#'
+      rss: '../rss.xml'
     }
   },
   plugins: [

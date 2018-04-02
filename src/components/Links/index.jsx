@@ -26,7 +26,7 @@ class Links extends React.Component {
             </a>
           </li>
           <li className="links__list-item">
-            <a href={`telegram:${links.telegram}`}>
+            <a href={`https://telegram.me/${links.telegram}`}>
               <i className="icon-paper-plane" />
             </a>
           </li>
