@@ -47,6 +47,7 @@ export const pageQuery = graphql`
         title
         subtitle
         copyright
+        attribution
         menu {
           label
           path
@@ -54,7 +55,7 @@ export const pageQuery = graphql`
         author {
           name
           email
-          telegram
+          linkedin
           github
           rss
         }

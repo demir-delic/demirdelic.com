@@ -37,6 +37,11 @@
         color: lighten($color-gray, 18%);
         font-size: $typographic-small-font-size;
     }
+    &__attribution {
+        color: lighten($color-gray, 18%);
+        font-size: $typographic-small-font-size;
+        margin-top: -1.5rem;
+    }
 }
 
 @include breakpoint-sm {
