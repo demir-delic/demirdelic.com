@@ -2,8 +2,12 @@ module.exports = {
   siteMetadata: {
     url: 'https://demirdelic.com',
     title: 'Blog by Demir Delic',
-    subtitle: 'Front-end developer seeking work in München.',
-    copyright: '© All rights reserved.',
+    subtitle: 'Front-end developer based in Munich.',
+    copyright: '© 2018 Demir Delic. All rights reserved.',
+    attribution: [
+      'https://www.gatsbyjs.org',
+      'https://github.com/alxshelepenok/gatsby-starter-lumen'
+    ],
     menu: [
       /*
       {
@@ -23,7 +27,7 @@ module.exports = {
     author: {
       name: 'Demir Delic',
       email: 'demir.delic@gmail.com',
-      telegram: 'demirdelic',
+      linkedin: 'demir-delic',
       github: 'demir-delic',
       rss: '../rss.xml'
     }
@@ -114,7 +118,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-fonts',
-      options: { fonts: [`roboto\:400,400i,500,700`] }
+      options: { fonts: ['roboto:400,400i,500,700'] }
     },
     {
       resolve: 'gatsby-plugin-sitemap',

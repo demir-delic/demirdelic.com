@@ -9,7 +9,13 @@ import './style.scss';
 class Sidebar extends React.Component {
   render() {
     const { location } = this.props;
-    const { author, subtitle, copyright, menu } = this.props.data.site.siteMetadata;
+    const {
+      author,
+      subtitle,
+      copyright,
+      attribution,
+      menu
+    } = this.props.data.site.siteMetadata;
     const isHomePage = get(location, 'pathname', '/') === '/';
 
     /* eslint-disable jsx-a11y/img-redundant-alt */
@@ -19,8 +25,8 @@ class Sidebar extends React.Component {
           <img
             src={profilePic}
             className="sidebar__author-photo"
-            width="75"
-            height="75"
+            width="100"
+            height="100"
             alt={author.name}
           />
         </Link>
@@ -49,6 +55,9 @@ class Sidebar extends React.Component {
             <Links data={author} />
             <p className="sidebar__copyright">
               {copyright}
+            </p>
+            <p className="sidebar__attribution">
+              Powered by <a href={attribution[0]}>Gatsby</a> and <a href={attribution[1]}>Lumen.</a>
             </p>
           </div>
         </div>

@@ -30,6 +30,7 @@ export const pageQuery = graphql`
         title
         subtitle
         copyright
+        attribution
         author {
           name
         }

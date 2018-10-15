@@ -6,7 +6,7 @@ class Links extends React.Component {
   render() {
     const author = this.props.data;
     const links = {
-      telegram: author.telegram,
+      linkedin: author.linkedin,
       github: author.github,
       rss: author.rss,
       email: author.email
@@ -26,8 +26,8 @@ class Links extends React.Component {
             </a>
           </li>
           <li className="links__list-item">
-            <a href={`https://telegram.me/${links.telegram}`}>
-              <i className="icon-paper-plane" />
+            <a href={`https://linkedin.com/in/${links.linkedin}`}>
+              <i className="icon-linkedin" />
             </a>
           </li>
           <li className="links__list-item">
