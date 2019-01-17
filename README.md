@@ -1,5 +1,5 @@
 # demirdelic.com
-This is the source code of my personal website. It uses the static site generator [Gatsby](https://github.com/gatsbyjs/gatsby) and is deployed on [Netlify](https://www.netlify.com/). Visit to learn a few things about me and read about projects that I've worked on.
+This is the source code of [my personal website](https://demirdelic.com). It uses the static site generator [Gatsby](https://github.com/gatsbyjs/gatsby) and is deployed on [Netlify](https://www.netlify.com/). Visit to learn a few things about me and read about projects that I've worked on.
 
 ## Features
 
