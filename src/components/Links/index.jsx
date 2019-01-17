@@ -21,7 +21,7 @@ class Links extends React.Component {
             </a>
           </li>
           <li className="links__list-item">
-            <a href={`https://www.github.com/${links.github}`} target="_blank" >
+            <a href={`https://www.github.com/${links.github}`}>
               <i className="icon-github" />
             </a>
           </li>
