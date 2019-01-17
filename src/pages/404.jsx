@@ -1,5 +1,5 @@
-import React from 'react';
-import Sidebar from '../components/Sidebar';
+import React from "react"
+import Sidebar from "../components/Sidebar"
 
 class NotFoundRoute extends React.Component {
   render() {
@@ -17,11 +17,11 @@ class NotFoundRoute extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default NotFoundRoute;
+export default NotFoundRoute
 
 export const pageQuery = graphql`
   query NotFoundQuery {
@@ -45,4 +45,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
