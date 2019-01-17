@@ -6,11 +6,10 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "clean:public": "rm -rf public",
-    "clean": "npm run clean:public",
+    "deep-clean": "npm run clean && rm -rf node_modules",
+    "clean": "rm -rf public && rm -rf .cache",
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git+https://github.com/demir-delic/demirdelic.com.git",
   "keywords": [
@@ -51,7 +50,6 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
     "babel-eslint": "^8.2.1",
-    "gh-pages": "^1.1.0",
     "lost": "^8.2.0",
     "postcss-pxtorem": "^4.0.1",
     "prettier": "^1.10.2"
