@@ -3,7 +3,7 @@ module.exports = {
     url: "https://demirdelic.com",
     title: "Blog by Demir Delic",
     subtitle: "Front-end developer based in Munich.",
-    copyright: "© 2019 Demir Delic. All rights reserved.",
+    copyright: "© 2020 Demir Delic. All rights reserved.",
     attribution: [
       "https://www.gatsbyjs.org",
       "https://github.com/alxshelepenok/gatsby-starter-lumen"
