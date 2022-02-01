@@ -13,6 +13,8 @@ description: "How can a distributed team work on code together while staying in 
 socialImage: "/media/search-directory.png"
 ---
 
+## What is Pair Programming?
+Pair programming is the act of two developers collaboratively designing software and coding in real time. This can involve sitting together and using the same keyboard and screen, or being physically separated (remote) and using software to share an environment.
 
 ## Why Pair Program?
 
@@ -21,17 +23,17 @@ As explained by [Tuple](https://tuple.app/pair-programming-guide/the-case-for-pa
 >- A pair of programmers tends to produce better code than someone working alone.
 >- Teams that pair often will maintain a fast shipping speed longer.  
 
-Pairing gives us the opportunity to see how someone else works, the mental space to ask “why?”, the courage to try completely new things with a partner, and the opportunity to share what we've learned with the broader team.
+Pairing gives us the opportunity to see how someone else works, the mental space to ask “why?”, the courage to try completely new things with a partner, and the opportunity to share what we've learned with a broader team. It can also be a lot of fun!
 
 ## Recommended Tools
+
+Pairing without being in the same room is easier when using dedicated software that's built to increase the fidelity of online communication. A generic screen sharing tool isn't enough on its own because it doesn't allow shared control, and there's too much friction involved in switching who is writing code.
 
 If you're limited to free tools, I recommend using a combination of [Visual Studio Code Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode) for collaboratively editing the same files and sharing localhost, and another app like Discord or Zoom for voice, video, and screen sharing. This setup involves some friction, but it's a great way to get started.
 
 Unfortunately, as of 2022 there isn't a free tool as good as Live Share that can be outside of VS Code. Potential options are [Duckly](https://duckly.com/), [Saros](https://github.com/saros-project/saros) for Eclipse or IntelliJ, and tmux and ssh for vi or emacs.
 
 If you're able to pay for a dedicated solution, [Tuple](https://tuple.app), [Pop](https://pop.com), and [Drovio](https://drovio.com) are solid applications designed for pair programming, and they all include free trials. If you use IntelliJ, [Code With Me](https://www.jetbrains.com/help/idea/code-with-me.html) is similar to Live Share and works quite well.
-
-Using a dedicated pairing solution pays off. A generic screen sharing tool isn't enough on its own because it doesn't allow shared control, and there's too much friction involved in switching who is writing code.
 
 ## Style and Etiquette
 
@@ -61,9 +63,9 @@ How do you decide when to pair? The most common advice is to rotate pairs freque
 
 Here are some best practices to consider adopting:
 -	During sprint planning, or before picking up a new ticket, find a member of your team who agrees to work on that ticket with you.
--	For each day that you plan to pair, schedule an uninterrupted block of time in your calendar (ideally at least 2-3 hours). Cancel meetings if you can't find a block of open time.
+-	For each day that you plan to pair, schedule an uninterrupted block of time in your calendar (ideally at least 2-3 hours). Cancel meetings if you can't find an open block of time.
 -	Don't pair with the same person for more than 3-5 consecutive days.
--	If a task isn't done after 3-5 consecutive days of pairing, break up the pair and bring someone else in to contribute fresh ideas.
+-	If a task isn't done after 3-5 consecutive days of pairing, break up the pair and bring in someone else to contribute fresh ideas.
 -	If one person in a pair is absent, that shouldn't block the other person.
 -	Comment on what works well and what doesn't in your team's retrospective.
 
