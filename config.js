@@ -5,10 +5,10 @@ module.exports = {
   pathPrefix: '/',
   title: 'Demir Delic',
   subtitle: 'Frontend developer based in Munich, Germany.',
-  copyright: '© 2020-present Demir Delic. All rights reserved.',
+  copyright: '© 2016-present Demir Delic. All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'G-HL3D2XSRJG',
   useKatex: false,
   menu: [
 
