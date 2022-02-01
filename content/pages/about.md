@@ -9,7 +9,7 @@ Hi! I'm a frontend-focused software developer raised in Boise, Idaho. I graduate
 Since then, I've been working on:
 - Creating websites and web applications that make peoples' lives easier
 - Promoting software quality through pair programming, automated testing, and continuous integration
-- Building strong teams through mentorship, thoughtful technical interviews, and standarization
+- Building strong teams through mentorship, thoughtful technical interviews, and standardization
 
 I've worked with global leaders in the fields of insurance, payment solutions, fast food, and pharmaceuticals, in teams large and small. I'm familiar with a wide variety of technologies in the JavaScript ecosystem, and I've dabbled in Node.js and Python backends as well as infrastructure.
 

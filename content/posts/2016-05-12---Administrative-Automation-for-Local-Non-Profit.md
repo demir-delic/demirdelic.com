@@ -1,5 +1,5 @@
 ---
-title: "Administrative Automation for Local Non-Profit"
+title: "Administrative Automation for a Local Non-Profit"
 date: "2016-05-12T22:40:32.169Z"
 template: "post"
 draft: false
@@ -10,11 +10,11 @@ tags:
   - "Web Development"
   - "LaTeX"
   - "Linux"
-description: "I worked with the founder of Treasure Valley Community Resource Center to automate the creation of their referral directory, an essential list of human services compiled for members of the community who are looking for professional help."
+description: "I worked with the TVCRC to reduce the burden of maintaining a list of services compiled for community members who are in need of professional help."
 socialImage: "/media/search-directory.png"
 ---
 
-In 2016, the non-profit, all volunteer Treasure Valley Community Resource Center ([TVCRC](http://www.idahoconnections.org/history.htm)) was facing the challenge of being unable to publish their referral directory, a list of local human service agencies that TVCRC updates and sells annually. The referral directory is a core part of TVCRC's offering to caseworkers, who use it to provide assistance to their clients. Sales of the directory constitute a majority of the organization's operating capital. The challenge was technical, and TVCRC did not have volunteers that were able to understand and fix the problem.
+In 2016, the non-profit, all volunteer Treasure Valley Community Resource Center ([TVCRC](http://www.idahoconnections.org/history.htm)), based in Caldwell, Idaho, was facing the challenge of being unable to publish their referral directory, a list of local human service agencies that TVCRC updates and sells annually. The referral directory is a core part of TVCRC's offering to caseworkers, who use it to provide assistance to their clients. Sales of the directory constitute a majority of the organization's operating capital. The challenge was technical, and TVCRC did not have volunteers that were able to understand and fix the problem.
 
 The problem was that the custom, volunteer-built software that had previously generated PDFs from TVCRC's database was no longer working, and the volunteer that had built it was no longer available. This software was very rigid and led TVCRC to maintaining two separate databases: one that could be queried by their website, and one that a PDF of the referral directory could be generated from. TVCRC needed someone to recreate the PDF generation functionality, while also eliminating redundancy by using the same database that was queried by the website, making it possible to maintain a single source of truth.
 
