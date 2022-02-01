@@ -2,15 +2,11 @@
 
 ## Features
 
-- Typography inspired by [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg)
-- [Mobile-First](https://medium.com/@mrmrs_/mobile-first-css-48bc4cc3f60f) approach to development
-- Stylesheet built using Sass and [BEM](http://getbem.com/naming/)-style naming
-- Syntax highlighting in code blocks
-- Sidebar menu built using a configuration block
-- Archive organized by tags and categories
-- Automatic RSS generation
-- Automatic sitemap generation
-- Offline support
+- Typography inspired by [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg).
+- Syntax highlighting in code blocks using [PrismJS](http://prismjs.com).
+- [Mobile-First](https://medium.com/@mrmrs_/mobile-first-css-48bc4cc3f60f) approach in development.
+- Archive organized by tags and categories.
+- Pagination support.
 
 ## Run locally
 
@@ -20,11 +16,11 @@
 
 #### Navigate to project directory and install dependencies
 
-`cd demirdelic.com && npm ci`
+`cd demirdelic.com && yarn install`
 
 #### Install Gatsby command line tool
 
-`npm install --global gatsby-cli`
+`yarn install --global gatsby-cli`
 
 #### Start development server
 
@@ -36,7 +32,7 @@
 
 ## Screenshot (base Lumen install)
 
-![Lumen screenshot](http://i.imgur.com/422y5GV.png)
+![Lumen screenshot](.github/screenshot.png)
 
 ## Attribution
 
