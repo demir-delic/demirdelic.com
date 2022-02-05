@@ -1,4 +1,4 @@
-# demirdelic.com &middot; [![Build Status](https://travis-ci.com/demir-delic/demirdelic.com.svg?branch=master)](https://travis-ci.com/demir-delic/demirdelic.com)
+# demirdelic.com
 
 ## Features
 
