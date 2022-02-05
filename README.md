@@ -20,7 +20,7 @@
 
 #### Install Gatsby command line tool
 
-`yarn install --global gatsby-cli`
+`yarn global add gatsby-cli`
 
 #### Start development server
 

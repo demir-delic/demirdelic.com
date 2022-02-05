@@ -1,6 +1,6 @@
 ---
 title: "Remote Pair Programming"
-date: "2020-05-12T22:40:32.169Z"
+date: "2020-08-12T20:40:32.169Z"
 template: "post"
 draft: false
 slug: "remote-pair-programming"
@@ -10,11 +10,11 @@ tags:
   - "Pair Programming"
   - "Teamwork"
 description: "How can a distributed team work on code together while staying in a flow state? Which tools and practices work best?"
-socialImage: "/media/search-directory.png"
+socialImage: "/photo.jpg"
 ---
 
 ## What is Pair Programming?
-Pair programming is the act of two developers collaboratively designing software and coding in real time. This can involve sitting together and using the same keyboard and screen, or being physically separated (remote) and using software to share an environment.
+Pair programming is when two developers collaboratively design software and code in real time. This can involve sitting together and using the same keyboard and screen, or being physically separated (remote) and using software to share an environment.
 
 ## Why Pair Program?
 
@@ -23,17 +23,17 @@ As explained by [Tuple](https://tuple.app/pair-programming-guide/the-case-for-pa
 >- A pair of programmers tends to produce better code than someone working alone.
 >- Teams that pair often will maintain a fast shipping speed longer.  
 
-Pairing gives us the opportunity to see how someone else works, the mental space to ask “why?”, the courage to try completely new things with a partner, and the opportunity to share what we've learned with a broader team. It can also be a lot of fun!
+On a personal level, pairing provides opportunities to see how others work, to share and refine new ideas, and to ask questions and see new perspectives. 
 
 ## Recommended Tools
 
-Pairing without being in the same room is easier when using dedicated software that's built to increase the fidelity of online communication. A generic screen sharing tool isn't enough on its own because it doesn't allow shared control, and there's too much friction involved in switching who is writing code.
+Pairing remotely is easier when using dedicated software built to increase the fidelity of online communication. A generic screen sharing tool isn't enough on its own because it doesn't allow shared control, and there's too much friction involved in switching who is writing code.
 
-If you're limited to free tools, I recommend using a combination of [Visual Studio Code Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode) for collaboratively editing the same files and sharing localhost, and another app like Discord or Zoom for voice, video, and screen sharing. This setup involves some friction, but it's a great way to get started.
+If you're limited to free tools, I recommend using a combination of [Visual Studio Code Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode) for collaboratively editing the same files and sharing localhost, and another app like Discord or Zoom for voice, video, and screen sharing. This setup still involves some friction, but it's a great way to get started.
 
-Unfortunately, as of 2022 there isn't a free tool as good as Live Share that can be outside of VS Code. Potential options are [Duckly](https://duckly.com/), [Saros](https://github.com/saros-project/saros) for Eclipse or IntelliJ, and tmux and ssh for vi or emacs.
+Unfortunately, as of 2022 there isn't a free tool as good as Live Share that can be used independently of VS Code. Potential options are [Duckly](https://duckly.com/), [Saros](https://github.com/saros-project/saros) for Eclipse or IntelliJ, and tmux and ssh for vi or emacs.
 
-If you're able to pay for a dedicated solution, [Tuple](https://tuple.app), [Pop](https://pop.com), and [Drovio](https://drovio.com) are solid applications designed for pair programming, and they all include free trials. If you use IntelliJ, [Code With Me](https://www.jetbrains.com/help/idea/code-with-me.html) is similar to Live Share and works quite well.
+If you're able to pay for a dedicated solution, [Tuple](https://tuple.app), [Pop](https://pop.com), and [Drovio](https://drovio.com) are solid applications designed for pair programming, and they all offer free trials. If you use IntelliJ, [Code With Me](https://www.jetbrains.com/help/idea/code-with-me.html) is similar to Live Share and works quite well.
 
 ## Style and Etiquette
 
@@ -113,10 +113,10 @@ Please consider reading the following quotes from Jason Garber's book, “Practi
 </details>
 
 
-Of course, the main way to get better at pairing is to practice it!
+Of course, the best way to get better at pairing is to practice it!
 
 ## Resources
 Many of the ideas here are based on the following links:
 -	[Tuple's guide](https://tuple.app/pair-programming-guide/), which is broken up into easily digestible individual articles.
--	[Practical Pair Programming](https://abookapart.com/products/practical-pair-programming), a very short $10 eBook that describes the essentials.
+-	[Practical Pair Programming](https://abookapart.com/products/practical-pair-programming), a very short $11 eBook that describes the essentials.
 -	["I Have Pair Programmed for 27,000 Hours: Ask Me Anything!"](https://www.youtube.com/watch?v=rIcUXcyC6BA)

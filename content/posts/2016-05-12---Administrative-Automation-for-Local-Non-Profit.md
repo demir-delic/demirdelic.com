@@ -1,6 +1,6 @@
 ---
 title: "Administrative Automation for a Local Non-Profit"
-date: "2016-05-12T22:40:32.169Z"
+date: "2016-06-12T18:40:32.169Z"
 template: "post"
 draft: false
 slug: "administrative-automation"
