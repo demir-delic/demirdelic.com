@@ -11,7 +11,7 @@ tags:
   - "LaTeX"
   - "Linux"
 description: "I worked with the TVCRC to reduce the burden of maintaining a list of services compiled for community members who are in need of professional help."
-socialImage: "/media/search-directory.png"
+socialImage: "/media/tvcrc-search-directory.png"
 ---
 
 In 2016, the non-profit, all volunteer Treasure Valley Community Resource Center ([TVCRC](http://www.idahoconnections.org/history.htm)), based in Caldwell, Idaho, was facing the challenge of being unable to publish their referral directory, a list of local human service agencies that TVCRC updates and sells annually. The referral directory is a core part of TVCRC's offering to caseworkers, who use it to provide assistance to their clients. Sales of the directory constitute a majority of the organization's operating capital. The challenge was technical, and TVCRC did not have volunteers that were able to understand and fix the problem.
