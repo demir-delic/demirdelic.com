@@ -18,7 +18,7 @@ In 2016, the non-profit, all volunteer Treasure Valley Community Resource Center
 
 The problem was that the custom, volunteer-built software that had previously generated PDFs from TVCRC's database was no longer working, and the volunteer that had built it was no longer available. This software was very rigid and led TVCRC to maintaining two separate databases: one that could be queried by their website, and one that a PDF of the referral directory could be generated from. TVCRC needed someone to recreate the PDF generation functionality, while also eliminating redundancy by using the same database that was queried by the website, making it possible to maintain a single source of truth.
 
-![A screenshot of TVCRC's directory search webpage.](/media/search-directory.png)
+![A screenshot of TVCRC's directory search webpage.](/media/tvcrc-search-directory.png)
 
 With the guidance of my senior capstone advisor at The College of Idaho, I worked as part of a small team that met with one of TVCRC's founders over the course of several months in order to identify the stated issues, clarify priorities, and ultimately propose and deliver a solution. The existing system for managing both databases was built into the administrator portion of TVCRC's website, and was written in Perl and PHP. My team and I decided to write our solution in those languages as well—primarily Perl—to easily integrate with the existing codebase. We reproduced the website server in order to test existing code and introduce changes without risking disruption of the production environment.
 
